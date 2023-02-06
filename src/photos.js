@@ -8,6 +8,7 @@ import fox from './images/fox.png';
 import handtat from './images/hand-tat.png';
 import light from './images/light.png';
 import luna1 from './images/luna1.png';
+import luna2 from './images/luna2.png';
 import mandala from './images/mandala.png';
 import naturetats from './images/nature-tats.png';
 import notecard from './images/notecard.png';
@@ -16,16 +17,17 @@ import raccoon from './images/raccoon.png';
 import ravenflying from './images/raven-flying.png';
 import skull from './images/skull.png';
 import spiritual from './images/spiritual.png';
+import stars from './images/stars.png';
 import umbrella from './images/umbrella.png';
 
 const photos = [
   {
-    src: hand,
-    width: 4,
-    height: 3
+    src: desert,
+    width: 5,
+    height: 4
   },
   {
-    src: abstractanimal,
+    src: mandala,
     width: 1,
     height: 1
   },
@@ -35,14 +37,19 @@ const photos = [
     height: 4
   },
   {
-    src: cobweb,
-    width: 3,
-    height: 4
+    src: handtat,
+    width: 1,
+    height: 1
   },
   {
-    src: desert,
-    width: 3,
-    height: 4
+    src: raccoon,
+    width: 4,
+    height: 3
+  },
+  {
+    src: light,
+    width: 1,
+    height: 1
   },
   {
     src: fox,
@@ -50,22 +57,17 @@ const photos = [
     height: 3
   },
   {
-    src: handtat,
-    width: 3,
-    height: 4
-  },
-  {
-    src: light,
+    src: naturetats,
     width: 4,
     height: 3
   },
   {
     src: luna1,
-    width: 4,
-    height: 3
+    width: 1,
+    height: 1
   },
   {
-    src: mandala,
+    src: spiritual,
     width: 3,
     height: 4
   },
@@ -75,12 +77,12 @@ const photos = [
     height: 3
   },
   {
-    src: pyramid,
+    src: stars,
     width: 4927,
     height: 1000
   },
   {
-    src: raccoon,
+    src: pyramid,
     width: 4,
     height: 3
   },
@@ -95,7 +97,7 @@ const photos = [
     height: 3
   },
   {
-    src: spiritual,
+    src: abstractanimal,
     width: 4,
     height: 3
   },
