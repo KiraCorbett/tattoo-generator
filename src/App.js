@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
-import { photos } from "./photos";
+import { photos, theme } from "./photos";
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <BasicRows />, document.getElementById("app")
+      <BasicRows />
     </div>
   );
 }

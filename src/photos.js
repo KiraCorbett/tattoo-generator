@@ -1,87 +1,200 @@
-export const photos = [
+import hand from './images/hand.png';
+import alien from './images/alien.png';
+import abstractanimal from './images/abstract-animal.png';
+import abstract from './images/abstract.png';
+import cobweb from './images/cobweb.png';
+import desert from './images/desert.png';
+import fox from './images/fox.png';
+import handtat from './images/hand-tat.png';
+import light from './images/light.png';
+import luna1 from './images/luna1.png';
+import mandala from './images/mandala.png';
+import naturetats from './images/nature-tats.png';
+import notecard from './images/notecard.png';
+import pyramid from './images/pyramid.png';
+import raccoon from './images/raccoon.png';
+import ravenflying from './images/raven-flying.png';
+import skull from './images/skull.png';
+import spiritual from './images/spiritual.png';
+import umbrella from './images/umbrella.png';
+
+const photos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: hand,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    src: abstractanimal,
     width: 1,
     height: 1
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+    src: abstract,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    src: cobweb,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
+    src: desert,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    src: fox,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    src: handtat,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+    src: light,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    src: luna1,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
+    src: mandala,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
+    src: naturetats,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
+    src: pyramid,
     width: 4927,
     height: 1000
   },
   {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
+    src: raccoon,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
+    src: skull,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
+    src: ravenflying,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+    src: spiritual,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+    src: umbrella,
     width: 4,
     height: 3
   }
 ];
+
+const theme = [
+  {
+    src: hand,
+    width: 4,
+    height: 3
+  },
+  {
+    src: cobweb,
+    width: 1,
+    height: 1
+  },
+  {
+    src: light,
+    width: 3,
+    height: 4
+  },
+  {
+    src: fox,
+    width: 3,
+    height: 4
+  },
+  {
+    src: notecard,
+    width: 3,
+    height: 4
+  },
+  {
+    src: pyramid,
+    width: 4,
+    height: 3
+  },
+  {
+    src: raccoon,
+    width: 3,
+    height: 4
+  },
+  {
+    src: ravenflying,
+    width: 4,
+    height: 3
+  },
+  {
+    src: umbrella,
+    width: 4,
+    height: 3
+  },
+  {
+    src: abstract,
+    width: 3,
+    height: 4
+  },
+  {
+    src: alien,
+    width: 4,
+    height: 3
+  },
+  {
+    src: pyramid,
+    width: 4927,
+    height: 1000
+  },
+  {
+    src: raccoon,
+    width: 4,
+    height: 3
+  },
+  {
+    src: skull,
+    width: 4,
+    height: 3
+  },
+  {
+    src: ravenflying,
+    width: 4,
+    height: 3
+  },
+  {
+    src: spiritual,
+    width: 4,
+    height: 3
+  },
+  {
+    src: umbrella,
+    width: 4,
+    height: 3
+  }
+];
+
+export {
+  photos,
+  theme,
+}
